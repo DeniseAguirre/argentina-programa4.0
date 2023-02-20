@@ -1,0 +1,108 @@
+body {
+    background-color: #ECE5E6;
+
+}
+
+.foto {
+    width: 300px;
+    float: left;
+    border: 3px solid #000;
+    border-radius: 50%;
+}
+
+.titulo {
+    text-align: center;
+    padding: 50px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.sobre-mi-descripcion {
+    padding: 20px;
+}
+
+.carrera {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.lugar {
+    font-size: 17px;
+}
+
+.puesto {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+nav {
+    background-color: #232428;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+a.nav-link:hover {
+    color: #C7E4E8;
+}
+
+.academy {
+    width: 150px;
+    height: auto;
+}
+
+.img-conocimiento {
+    width: 48px;
+    height: 48px;
+}
+
+.contacto {
+    background-color: #232428;
+    color: #FFFFFF;
+}
+
+.btn-contacto {
+    color: #FFFFFF;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.name-item {
+    margin-top: 5px;
+}
+
+.accordion {
+    --bs-accordion-bg: transparent;
+    background: rgba(255,255,255,0.4);
+   border-radius: 10px;
+   border: 1px solid rgba(255,255,255,0.2);
+   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+#experiencias {
+    background-image: url(/background-experiencias.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.formacion {
+    background-color: #232428;
+    color: #FFFFFF;
+}
